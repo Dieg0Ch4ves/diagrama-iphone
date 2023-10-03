@@ -1,0 +1,7 @@
+package Aparelhos;
+
+public interface NavegadorInternet {
+    void abrirPagina(String url);
+    void fecharPagina();
+    void buscar(String termo);
+}
